@@ -1,10 +1,14 @@
 
 
-  var person;
+  var person = "Steve" // TODO: UN-SET THIS ONCE READY TO USE NAME BUTTONS
+
   //http://stackoverflow.com/questions/15455289/changing-variable-by-html-button
   function pickPerson(choice) {
     person = choice;
   }
+
+  var pointsList = {} // list of names and points
+
 // http://stackoverflow.com/questions/23148292/javascript-function-change-content-onclick
  function changeText(pick) {
    if (!person) {
@@ -24,8 +28,10 @@
 
     if(pick==1){
       // add points to the list items
-
-
+      // http://stackoverflow.com/questions/14234646/adding-elements-to-object
+      // http://stackoverflow.com/questions/2241875/how-to-create-an-object-property-from-a-variable-value-in-javascript
+      pointsList[topFirstName] ++;
+      console.log(pointsList)
     }
     else {
       // add points to the list items
