@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/style.css">
   <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
 
+  <script type="text/javascript" src="js/main.js"></script>
 </head>
 
 <body>
@@ -28,16 +29,34 @@
   <main>
     <div class="top">
       <div class="name">
-        <span id="topName">
-          Top Item
-        </span>
+        <a href="#" onclick="javascript:changeText(1); return false;">
+          <span id="topFirstName">
+            The
+          </span>
+          <span id="topMiddleName1">
+            Top
+          </span>
+          <span id="topMiddleName2">
+            Item
+          </span>
+          <span>Smith</span>
+        </a>
       </div>
     </div>
     <div class="bottom">
       <div class="name">
-        <span id="bottomName">
-          Bottom Item
-        </span>
+        <a href="#" onclick="javascript:changeText(2); return false;">
+          <span id="botFirstName">
+            The
+          </span>
+          <span id="botMiddleName1">
+            Bottom
+          </span>
+          <span id="botMiddleName2">
+            Item
+          </span>
+          <span>Smith</span>
+        </a>
       </div>
     </div>
   </main>

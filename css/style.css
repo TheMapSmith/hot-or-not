@@ -52,8 +52,11 @@ main {
 }
 
 .name {
-  color: white;
   text-align: center;
   height: 90px;
   line-height: 290px;
+}
+
+.name a {
+  color: white;
 }
