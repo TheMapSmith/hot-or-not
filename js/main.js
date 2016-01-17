@@ -1,10 +1,16 @@
+
+
+  var person;
+  //http://stackoverflow.com/questions/15455289/changing-variable-by-html-button
+  function pickPerson(choice) {
+    person = choice;
+  }
 // http://stackoverflow.com/questions/23148292/javascript-function-change-content-onclick
-
-var person;
-
  function changeText(pick) {
    if (!person) {
      alert("Who are you?")
+   }
+   else {
 
    // randomly pick 6 new items from the list
    // http://stackoverflow.com/questions/5915096/get-random-item-from-javascript-array
